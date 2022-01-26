@@ -16,17 +16,21 @@ export default function FormPage() {
       >
         {({ values, handleChange, handleSubmit, handleBlur }) => (
           <div>
-            <Field label={"İsim  "} type={"text"} placeholder={"Emre"} />
-            <Field label={"Soyisim  "} type={"text"} placeholder={"Emre"} />
-            <Field label={"Yaş  "} type={"number"} placeholder={"Emre"} />
-            <Field label={"TC No  "} type={"number"} placeholder={"Emre"} />
+            <Field label={"İsim  "} type={"text"} placeholder={"İsim"} />
+            <Field label={"Soyisim  "} type={"text"} placeholder={"Soyisim"} />
+            <Field label={"Yaş  "} type={"number"} placeholder={"Yaş"} />
+            <Field
+              label={"TC No  "}
+              type={"number"}
+              placeholder={"TC Kimlik Numarası"}
+            />
             <Field
               label={"Başvuru Nedeni  "}
               type={"text"}
-              placeholder={"Emre"}
+              placeholder={"Başvuru Nedeni"}
             />
-            <Textarea label={"Adres  "} placeholder={"Emre"} />
-            <Field label={"Resim  "} type={"text"} placeholder={"Emre"} />
+            <Textarea label={"Adres  "} placeholder={"Adres"} />
+            <Field label={"Resim  "} type={"text"} placeholder={"Resim"} />
             <Button buttonName={"Gönder"} onClick={handleSubmit} />
           </div>
         )}

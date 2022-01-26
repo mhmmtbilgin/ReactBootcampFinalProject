@@ -1,0 +1,41 @@
+.textarea{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+}
+.textarea__text{
+    display: flex;
+    justify-content: flex-start;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 8px;
+    margin-right: 10px;
+}
+.textarea__input{
+    width: 250px;
+    height: 90px;
+    background: #FFFFFF;
+    border: 1px solid #BCBEC0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 16px;
+    
+}
+.textarea__input:focus{
+    border: none;  
+}
+.textarea__text-bottom{
+    display: flex;
+    justify-content: flex-start;
+    font-family: Poppins;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration: none;
+    color:#465685;
+    margin-top: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}

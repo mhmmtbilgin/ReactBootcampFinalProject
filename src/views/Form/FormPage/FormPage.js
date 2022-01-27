@@ -1,5 +1,6 @@
 import { Formik } from "formik";
 import React from "react";
+import { Link } from "react-router-dom";
 import Button from "../../../components/Button/Button";
 import Field from "../../../components/Field/Field";
 import Textarea from "../../../components/Textarea/Textarea";
@@ -32,6 +33,9 @@ export default function FormPage() {
             <Textarea label={"Adres  "} placeholder={"Adres"} />
             <Field label={"Resim  "} type={"text"} placeholder={"Resim"} />
             <Button buttonName={"Gönder"} onClick={handleSubmit} />
+            <Link to={"/basvuru-basarili"}>
+              <Button buttonName={"Basarili"} />
+            </Link>
           </div>
         )}
       </Formik>

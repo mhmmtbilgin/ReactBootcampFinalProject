@@ -5,7 +5,7 @@ import Button from '../../../components/Button/Button';
 import Field from '../../../components/Field/Field';
 
 export default function Login() {
-  return <div>
+  return <div className='login'>
       <span className="login-form__title">Giriş</span>
         <div className="login-form">
           <Field

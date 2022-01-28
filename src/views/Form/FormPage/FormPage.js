@@ -5,6 +5,7 @@ import Button from "../../../components/Button/Button";
 import Field from "../../../components/Field/Field";
 import Textarea from "../../../components/Textarea/Textarea";
 
+
 export default function FormPage() {
   function addTodo() {}
   return (
@@ -32,9 +33,8 @@ export default function FormPage() {
             />
             <Textarea label={"Adres  "} placeholder={"Adres"} />
             <Field label={"Resim  "} type={"text"} placeholder={"Resim"} />
-            <Button buttonName={"Gönder"} onClick={handleSubmit} />
             <Link to={"/basvuru-basarili"}>
-              <Button buttonName={"Basarili"} />
+              <Button buttonName={"Gönder"} />
             </Link>
           </div>
         )}

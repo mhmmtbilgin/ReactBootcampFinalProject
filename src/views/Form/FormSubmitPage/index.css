@@ -1,0 +1,28 @@
+.form-submit{
+  width: 100%;
+  }
+  
+  .form-submit__back{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto 0;
+  padding: 20px; 
+  }
+
+.go-back-next {
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    opacity: 0.35;
+    left: 55px;
+    top: 31px;
+    text-decoration: none;
+    margin-top: 20px;
+    cursor: pointer;
+    
+  }
+.go-back:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+  }

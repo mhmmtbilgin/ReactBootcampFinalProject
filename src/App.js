@@ -10,7 +10,7 @@ function App() {
      
         <BrowserRouter>
           <Routes>
-            <Route path="/basvuru-olustur" element={<FormPage />} />
+            <Route path="/" element={<FormPage />} />
             <Route path="/basvuru-basarili" element={<FormSubmitPage />} />
             <Route path="/admin" element={<Login />} />
           </Routes>

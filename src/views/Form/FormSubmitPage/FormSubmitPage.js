@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import url from "../../../assets/img/celebration-spark-svgrepo-com.svg"
 import React from 'react';
 import Thanks from "../../../components/ThanksPage/Thanks";
